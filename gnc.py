@@ -1,3 +1,4 @@
+
 import random
 
 def guess(x):
@@ -11,3 +12,5 @@ def guess(x):
             print('Sorry, guess again. Too high.')
 
     print(f'Yay, congrats. You have guessed the number {random_number} correctly!!')
+
+guess(10)
