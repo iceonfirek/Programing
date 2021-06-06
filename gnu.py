@@ -1,6 +1,9 @@
+"""gnu.py."""
 import random
 
+
 def guess(x):
+    """Define guess."""
     random_number = random.randint(1, x)
     guess = 0
     while guess != random_number:
@@ -12,7 +15,9 @@ def guess(x):
 
     print(f'Yay, congrats. You have guessed the number {random_number} correctly!!')
 
+
 def computer_guess(x):
+    """Define computer_guessguess."""
     low = 1
     high = x
     feedback = ''
